@@ -1,0 +1,70 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\micky\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\GitHub CLI\;C:\Users\micky\AppData\Local\Microsoft\WindowsApps;C:\Users\micky\AppData\Local\atom\bin;C:\Users\micky\AppData\Roaming\npm;C:\Program Files\heroku\bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  14.18.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, open 'C:\Users\micky\AppData\Local\Yarn\Cache\v6\npm-rxjs-7.5.7-2ec0d57fdc89ece220d2e702730ae8f1e49def39-integrity\node_modules\rxjs\.yarn-metadata.json'
+
+npm manifest: 
+  {
+    "name": "demo-parse-server-migration",
+    "version": "1.1.0",
+    "main": "dist/index.js",
+    "private": true,
+    "dependencies": {
+      "@moralisweb3/parse-server": "2.7.0",
+      "@codemirror/language": "^0.20.0",
+      "@moralisweb3/core": "^2.7.0",
+      "@types/node": "^18.7.15",
+      "dotenv": "^16.0.1",
+      "envalid": "7.3.1",
+      "express": "^4.18.1",
+      "express-rate-limit": "^6.5.1",
+      "graphql": "^16.6.0",
+      "graphql-ws": "^5.10.1",
+      "moralis": "^2.7.0",
+      "ngrok": "^4.3.3",
+      "parse-server": "^5.2.7"
+    },
+    "devDependencies": {
+      "@moralisweb3/eslint-config": "^1.0.0",
+      "@typescript-eslint/eslint-plugin": "^5.12.0",
+      "@typescript-eslint/parser": "^5.12.0",
+      "axios": "^0.27.2",
+      "eslint": "^8.9.0",
+      "eslint-plugin-etc": "^2.0.2",
+      "eslint-plugin-import": "^2.26.0",
+      "mongodb-runner": "^4.9.0",
+      "prettier": "^2.7.1",
+      "ts-node": "^10.9.1",
+      "typescript": "^4.7.4"
+    },
+    "scripts": {
+      "dev": "ts-node src/index.ts",
+      "start": "node build/index.js",
+      "build": "tsc",
+      "lint": "eslint --ext .js,.ts .",
+      "format": "prettier --write 'src/**/*.{js,ts}'",
+      "dev:db-start": "mongodb-runner start",
+      "dev:db-stop": "mongodb-runner stop",
+      "gen:cloud": "ts-node ./scripts/generateCloudCode.ts",
+      "tsc": "tsc"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
