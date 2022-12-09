@@ -6357,7 +6357,7 @@ moralis@^2.7.0:
     "@moralisweb3/streams" "^2.7.4"
     "@moralisweb3/streams-typings" "^1.0.5"
 
-moralis@^2.8.2:
+moralis@^2.9.0:
   version "2.9.0"
   resolved "https://registry.yarnpkg.com/moralis/-/moralis-2.9.0.tgz#903c05bbfc01e5f883adec3a34b61e7303e6da12"
   integrity sha512-0LT7frx6a5IUIEvBLj08ghx6BJ2q3OACVmDNiCvIw8r3OfrpNjhey0F3TQfdMCs/DZ8bHS6RfjK9oQ8PxGnSMA==
